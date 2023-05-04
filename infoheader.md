@@ -42,7 +42,7 @@ title: Metadata
 title: Key
 - 🟡 interesting point
 - 🟢 literature to read
-- 🔵 key conclusion/ratio decidendi
+- 🔵 key conclusion / *ratio decidendi*
 - 🟣 author critique of other literature
 - 🔴 disagree with author(s)
 - 🟠️ highlights after first iteration
