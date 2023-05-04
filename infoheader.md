@@ -3,6 +3,11 @@ title: Citation
 {{bibliography}}
 ```
 
+```ad-mainpoint
+title: punctum saliens
+**Takeaways**::
+```
+
 ```ad-info
 title: Metadata
 **Title**:: {{title}}
