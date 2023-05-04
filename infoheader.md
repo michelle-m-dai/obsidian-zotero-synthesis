@@ -48,7 +48,7 @@ title: Citation
 - 🟢 literature to read
 - 🔵 key conclusion/ratio decidendi
 - 🟣 author critique of other literature
-- 🔴 disagree with author
+- 🔴 disagree with author(s)
 - 🟠️ highlights after first iteration
 ```
 
