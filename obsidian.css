@@ -1,0 +1,95 @@
+/*put this file in .obsidian/snippets folder. */
+
+.markdown-preview-view h1 {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.markdown-preview-view h2 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.markdown-preview-view h3 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.markdown-preview-view h4 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.markdown-preview-view h5 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.markdown-preview-view h6 {
+    font-size: 16px;
+    line-height: 24px;
+    color: --text-normal;
+}
+
+.cm-header-1 {
+    font-size: 22pt;
+}
+
+.cm-header-2 {
+    font-size: 20pt;
+}
+
+.cm-header-3 {
+    font-size: 18pt;
+}
+
+.cm-header-4 {
+    font-size: 16pt;
+}
+
+.cm-header-5 {
+    font-size: 16pt;
+}
+
+.cm-header-6 {
+    font-size: 16pt;
+    color: --text-normal;
+}
+
+.nav-folder.mod-root>.nav-folder-children .nav-folder>.nav-folder-title[data-path*="/attachments"],
+.nav-folder.mod-root>.nav-folder-children .nav-folder>.nav-folder-title[data-path*="/attachments"] + .nav-folder-children{
+display: none;}
+
+.callout[data-callout="custom-#5fb236"] {
+    --callout-color: 95, 178, 54;
+}
+
+.callout[data-callout="custom-#2ea8e5"] {
+    --callout-color: 46, 168, 229;
+}
+
+.callout[data-callout="custom-#a28ae5"] {
+    --callout-color: 162, 138, 229;
+}
+
+.callout[data-callout="custom-#f19837"] {
+    --callout-color: 241, 152, 55;
+}
+
+.callout[data-callout="custom-#aaaaaa"] {
+    --callout-color: 170, 170, 170;
+}
+
+.callout[data-callout="custom-#e56eee"] {
+    --callout-color: 229, 110, 238;
+}
+
+.callout[data-callout="custom-#ff6666"] {
+    --callout-color: 255, 102, 102;
+}
+
+.callout[data-callout="custom-#ffd400"] {
+    --callout-color: 255, 212, 0;
+}
+
+}
