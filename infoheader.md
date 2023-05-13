@@ -3,10 +3,15 @@ title: Citation
 {{bibliography}}
 ```
 
+{% persist "mainpoint" %}
+{% if isFirstImport %}
+
 ```ad-mainpoint
 title: punctum saliens
 **Takeaways**::
 ```
+{% endif %}
+{% endpersist %}
 
 ```ad-info
 title: Metadata
@@ -26,6 +31,8 @@ title: Metadata
 {% if pages %} **Pages**:: {{pages}}  {% endif %}
 {% if DOI %}**DOI**:: {{DOI}}  {% endif %}
 {% if ISBN %}**ISBN**:: {{ISBN}}  {% endif %}
+{% if Tags %}**Tags**:: {{hashTags}} {% endif %}
+{{extra}}
 ```
 
 > [!link] Link
@@ -51,6 +58,7 @@ title: Key
 - 🟣 author critique of other literature
 - 🔴 disagree with author(s)
 - 🟠️ highlights after first iteration
+- ⚫ methods / references
 ```
 
 {%- endif %}
