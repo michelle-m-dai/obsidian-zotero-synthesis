@@ -31,7 +31,7 @@ title: Metadata
 {% if pages %} **Pages**:: {{pages}}  {% endif %}
 {% if DOI %}**DOI**:: {{DOI}}  {% endif %}
 {% if ISBN %}**ISBN**:: {{ISBN}}  {% endif %}
-{% if Tags %}**Tags**:: {{hashTags}} {% endif %}
+{% if hashTags %}**Tags**:: {{hashTags}} {% endif %}
 {{extra}}
 ```
 
