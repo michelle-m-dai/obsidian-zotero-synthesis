@@ -1,1 +1,1 @@
-[{"type":"link","color":"174, 130, 229","icon":{"name":"link","type":"font-awesome"},"command":false,"injectColor":true,"noTitle":false,"copy":true}]
+[{"type":"link","color":"174, 130, 229","icon":{"name":"link","type":"font-awesome"},"command":false,"injectColor":true,"noTitle":false,"copy":true},{"type":"mainpoint","color":"255, 0, 0","icon":{"name":"hand-point-right","type":"font-awesome"},"command":false,"title":"*punctum saliens*","injectColor":true,"noTitle":false}]
