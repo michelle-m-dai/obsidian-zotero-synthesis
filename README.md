@@ -18,4 +18,5 @@ To be updated.
 
 ## Updates
 05/12/2023: support for Zotero tags and extra fields
+
 05/03/2023: callouts are now the color of the corresponding Zotero highlights

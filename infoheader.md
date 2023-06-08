@@ -1,3 +1,11 @@
+---
+
+tags: 
+{%- for tag in tags %}
+- {{tag.tag}}
+{%- endfor %}
+
+---
 ```ad-note
 title: Citation
 {{bibliography}}
@@ -31,7 +39,12 @@ title: Metadata
 {% if pages %} **Pages**:: {{pages}}  {% endif %}
 {% if DOI %}**DOI**:: {{DOI}}  {% endif %}
 {% if ISBN %}**ISBN**:: {{ISBN}}  {% endif %}
-{% if hashTags %}**Tags**:: {{hashTags}} {% endif %}
+
+{% if hashTags %}
+**Tags**:: {% for tag in tags -%}
+#{{tag.tag}} {% endfor -%}
+{% endif %}
+
 {{extra}}
 ```
 
